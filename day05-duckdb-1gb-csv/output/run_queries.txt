@@ -1,0 +1,70 @@
+
+-- q1_count: 1.25 s
+SELECT count(*) AS orders FROM '/workspace/tds/growth/day05-duckdb-1gb-csv/demo/data/nilgiri_sales.csv'
+  orders
+16500000
+
+-- q2_city_revenue: 1.60 s
+SELECT city, round(sum(qty * unit_price * (1 - discount_pct / 100)) / 1e7, 2) AS net_revenue_crore, count(*) AS orders
+FROM '/workspace/tds/growth/day05-duckdb-1gb-csv/demo/data/nilgiri_sales.csv' GROUP BY city ORDER BY net_revenue_crore DESC, city
+     city  net_revenue_crore  orders
+     Pune             191.58 2062484
+Hyderabad             191.44 2064344
+    Delhi             191.06 2061411
+Bengaluru             191.04 2063357
+   Mumbai             190.96 2063346
+  Chennai             190.82 2061589
+  Kolkata             190.59 2061243
+    Kochi             190.47 2062226
+
+-- q3_monthly: 1.63 s
+SELECT strftime(order_date, '%Y-%m') AS month, round(sum(qty * unit_price * (1 - discount_pct / 100)) / 1e7, 2) AS net_revenue_crore
+FROM '/workspace/tds/growth/day05-duckdb-1gb-csv/demo/data/nilgiri_sales.csv' GROUP BY month ORDER BY month
+  month  net_revenue_crore
+2025-01              70.74
+2025-02              64.10
+2025-03              70.67
+2025-04              68.56
+2025-05              70.76
+2025-06              68.43
+2025-07              70.63
+2025-08              71.04
+2025-09              68.31
+2025-10              70.72
+2025-11              68.31
+2025-12              70.76
+
+-- q4_top_products: 1.24 s
+SELECT product_id, category, sum(qty) AS units FROM '/workspace/tds/growth/day05-duckdb-1gb-csv/demo/data/nilgiri_sales.csv'
+WHERE city = 'Kochi' AND order_date >= DATE '2026-10-01' GROUP BY ALL ORDER BY units DESC, product_id LIMIT 5
+product_id category  units
+    P00359  Grocery  168.0
+    P00023  Grocery  156.0
+    P00120  Grocery  146.0
+    P00862  Grocery  144.0
+    P00101  Grocery  140.0
+
+-- CSV -> Parquet: 5.04 s, 240,897,230 bytes
+
+-- q2_city_revenue_parquet: 0.13 s
+SELECT city, round(sum(qty * unit_price * (1 - discount_pct / 100)) / 1e7, 2) AS net_revenue_crore, count(*) AS orders
+FROM '/workspace/tds/growth/day05-duckdb-1gb-csv/demo/data/nilgiri_sales.parquet' GROUP BY city ORDER BY net_revenue_crore DESC, city
+     city  net_revenue_crore  orders
+     Pune             191.58 2062484
+Hyderabad             191.44 2064344
+    Delhi             191.06 2061411
+Bengaluru             191.04 2063357
+   Mumbai             190.96 2063346
+  Chennai             190.82 2061589
+  Kolkata             190.59 2061243
+    Kochi             190.47 2062226
+
+-- q4_top_products_parquet: 0.09 s
+SELECT product_id, category, sum(qty) AS units FROM '/workspace/tds/growth/day05-duckdb-1gb-csv/demo/data/nilgiri_sales.parquet'
+WHERE city = 'Kochi' AND order_date >= DATE '2026-10-01' GROUP BY ALL ORDER BY units DESC, product_id LIMIT 5
+product_id category  units
+    P00359  Grocery  168.0
+    P00023  Grocery  156.0
+    P00120  Grocery  146.0
+    P00862  Grocery  144.0
+    P00101  Grocery  140.0
