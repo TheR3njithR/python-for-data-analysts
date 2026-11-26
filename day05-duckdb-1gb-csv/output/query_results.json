@@ -1,0 +1,217 @@
+{
+ "csv_bytes": 1041786923,
+ "duckdb": "2.0.1",
+ "q1_count": {
+  "seconds": 1.25,
+  "rows": [
+   {
+    "orders": 16500000
+   }
+  ]
+ },
+ "q2_city_revenue": {
+  "seconds": 1.6,
+  "rows": [
+   {
+    "city": "Pune",
+    "net_revenue_crore": 191.58,
+    "orders": 2062484
+   },
+   {
+    "city": "Hyderabad",
+    "net_revenue_crore": 191.44,
+    "orders": 2064344
+   },
+   {
+    "city": "Delhi",
+    "net_revenue_crore": 191.06,
+    "orders": 2061411
+   },
+   {
+    "city": "Bengaluru",
+    "net_revenue_crore": 191.04,
+    "orders": 2063357
+   },
+   {
+    "city": "Mumbai",
+    "net_revenue_crore": 190.96,
+    "orders": 2063346
+   },
+   {
+    "city": "Chennai",
+    "net_revenue_crore": 190.82,
+    "orders": 2061589
+   },
+   {
+    "city": "Kolkata",
+    "net_revenue_crore": 190.59,
+    "orders": 2061243
+   },
+   {
+    "city": "Kochi",
+    "net_revenue_crore": 190.47,
+    "orders": 2062226
+   }
+  ]
+ },
+ "q3_monthly": {
+  "seconds": 1.63,
+  "rows": [
+   {
+    "month": "2025-01",
+    "net_revenue_crore": 70.74
+   },
+   {
+    "month": "2025-02",
+    "net_revenue_crore": 64.1
+   },
+   {
+    "month": "2025-03",
+    "net_revenue_crore": 70.67
+   },
+   {
+    "month": "2025-04",
+    "net_revenue_crore": 68.56
+   },
+   {
+    "month": "2025-05",
+    "net_revenue_crore": 70.76
+   },
+   {
+    "month": "2025-06",
+    "net_revenue_crore": 68.43
+   },
+   {
+    "month": "2025-07",
+    "net_revenue_crore": 70.63
+   },
+   {
+    "month": "2025-08",
+    "net_revenue_crore": 71.04
+   },
+   {
+    "month": "2025-09",
+    "net_revenue_crore": 68.31
+   },
+   {
+    "month": "2025-10",
+    "net_revenue_crore": 70.72
+   },
+   {
+    "month": "2025-11",
+    "net_revenue_crore": 68.31
+   },
+   {
+    "month": "2025-12",
+    "net_revenue_crore": 70.76
+   }
+  ]
+ },
+ "q4_top_products": {
+  "seconds": 1.24,
+  "rows": [
+   {
+    "product_id": "P00359",
+    "category": "Grocery",
+    "units": 168.0
+   },
+   {
+    "product_id": "P00023",
+    "category": "Grocery",
+    "units": 156.0
+   },
+   {
+    "product_id": "P00120",
+    "category": "Grocery",
+    "units": 146.0
+   },
+   {
+    "product_id": "P00862",
+    "category": "Grocery",
+    "units": 144.0
+   },
+   {
+    "product_id": "P00101",
+    "category": "Grocery",
+    "units": 140.0
+   }
+  ]
+ },
+ "to_parquet_seconds": 5.04,
+ "parquet_bytes": 240897230,
+ "q2_city_revenue_parquet": {
+  "seconds": 0.13,
+  "rows": [
+   {
+    "city": "Pune",
+    "net_revenue_crore": 191.58,
+    "orders": 2062484
+   },
+   {
+    "city": "Hyderabad",
+    "net_revenue_crore": 191.44,
+    "orders": 2064344
+   },
+   {
+    "city": "Delhi",
+    "net_revenue_crore": 191.06,
+    "orders": 2061411
+   },
+   {
+    "city": "Bengaluru",
+    "net_revenue_crore": 191.04,
+    "orders": 2063357
+   },
+   {
+    "city": "Mumbai",
+    "net_revenue_crore": 190.96,
+    "orders": 2063346
+   },
+   {
+    "city": "Chennai",
+    "net_revenue_crore": 190.82,
+    "orders": 2061589
+   },
+   {
+    "city": "Kolkata",
+    "net_revenue_crore": 190.59,
+    "orders": 2061243
+   },
+   {
+    "city": "Kochi",
+    "net_revenue_crore": 190.47,
+    "orders": 2062226
+   }
+  ]
+ },
+ "q4_top_products_parquet": {
+  "seconds": 0.09,
+  "rows": [
+   {
+    "product_id": "P00359",
+    "category": "Grocery",
+    "units": 168.0
+   },
+   {
+    "product_id": "P00023",
+    "category": "Grocery",
+    "units": 156.0
+   },
+   {
+    "product_id": "P00120",
+    "category": "Grocery",
+    "units": 146.0
+   },
+   {
+    "product_id": "P00862",
+    "category": "Grocery",
+    "units": 144.0
+   },
+   {
+    "product_id": "P00101",
+    "category": "Grocery",
+    "units": 140.0
+   }
+  ]
+ }
+}
