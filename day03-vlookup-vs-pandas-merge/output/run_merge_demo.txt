@@ -1,0 +1,8 @@
+orders 5,000, products 200
+pandas: orders.merge(products, on='product_id', how='left', indicator=True)
+  merged rows 5,000 (row count unchanged: True), took 10.4 ms
+  orders with no matching product (_merge == 'left_only'): 12 -> O10390, O11061, O11358, O11424, ...
+Excel: 5,000 x =VLOOKUP(B2,Products!$A$2:$D$201,4,FALSE), recalculated by LibreOffice 25.2.3.2
+  #N/A results: 12
+  #N/A rows are exactly the merge left_only rows: True
+  rows where VLOOKUP price == merge price (both missing counted equal): 5,000 of 5,000

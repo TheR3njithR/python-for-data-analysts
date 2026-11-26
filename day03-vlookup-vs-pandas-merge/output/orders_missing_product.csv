@@ -1,0 +1,13 @@
+order_id,product_id,qty,product_name,category,unit_price,_merge
+O10390,P907,4,,,,left_only
+O11061,P900,4,,,,left_only
+O11358,P909,2,,,,left_only
+O11424,P906,4,,,,left_only
+O11469,P905,3,,,,left_only
+O12573,P911,3,,,,left_only
+O12983,P903,1,,,,left_only
+O13503,P901,2,,,,left_only
+O13659,P908,3,,,,left_only
+O14019,P904,4,,,,left_only
+O14226,P910,5,,,,left_only
+O14483,P902,4,,,,left_only
