@@ -1,0 +1,36 @@
+== Monthly report 2026-10  (input/Sales_Export_2026-10.xlsx)
+  rows in export                             291
+  blank rows dropped                         8
+  total/footer rows dropped                  1
+  exact duplicate rows dropped               5
+  late entries moved to Issues               3
+  rows with missing values moved to Issues   2
+  rows failing the net-amount check          0
+  clean lines                                272
+== KPIs
+  Net revenue                                1,324,645.95
+  Invoices                                   266
+  Units sold                                 1,423
+  Average invoice                            5,007.47
+  Returns                                    -7,342.30
+  Target achieved                            106.0%
+  Change vs last month                       17.3%
+== Regions
+region  actual  target  vs_target  last_month  change_vs_last_month
+  East 336,789  300000      1.123     246,406                 0.367
+ North 375,874  330000      1.139     329,503                 0.141
+ South 343,219  280000      1.226     239,608                 0.432
+  West 268,764  340000      0.790     313,948                -0.144
+== Top 3 reps
+       rep region  invoices  units  net_revenue
+ Priya Das   East        37    230    214951.60
+Vikram Rao  North        39    216    193825.85
+Asha Menon  North        35    168    182048.25
+== Weekly
+      week  lines  net_revenue
+2026-10-01     49    263759.90
+2026-10-05     63    261719.10
+2026-10-12     67    359182.95
+2026-10-19     37    201487.45
+2026-10-26     56    238496.55
+wrote output/Monthly_Report_2026-10.xlsx in 0.33 s

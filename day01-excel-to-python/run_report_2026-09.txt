@@ -1,0 +1,35 @@
+== Monthly report 2026-09  (input/Sales_Export_2026-09.xlsx)
+  rows in export                             254
+  blank rows dropped                         7
+  total/footer rows dropped                  1
+  exact duplicate rows dropped               5
+  late entries moved to Issues               0
+  rows with missing values moved to Issues   2
+  rows failing the net-amount check          0
+  clean lines                                239
+== KPIs
+  Net revenue                                1,129,464.85
+  Invoices                                   234
+  Units sold                                 1,312
+  Average invoice                            4,855.59
+  Returns                                    -6,742.65
+  Target achieved                            97.4%
+== Regions
+region  actual  target  vs_target
+  East 246,406  280000      0.880
+ North 329,503  300000      1.098
+ South 239,608  260000      0.922
+  West 313,948  320000      0.981
+== Top 3 reps
+       rep region  invoices  units  net_revenue
+Asha Menon  North        38    203    177244.40
+Meera Shah   West        31    195    175354.00
+Vikram Rao  North        30    151    152258.45
+== Weekly
+      week  lines  net_revenue
+2026-09-01     48    216901.80
+2026-09-07     61    315612.80
+2026-09-14     64    273994.90
+2026-09-21     47    214193.65
+2026-09-28     19    108761.70
+wrote output/Monthly_Report_2026-09.xlsx in 0.25 s
