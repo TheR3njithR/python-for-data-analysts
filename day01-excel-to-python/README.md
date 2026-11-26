@@ -22,6 +22,6 @@ pip install -r requirements.txt
 ./run_all.sh                                           # or: PYTHON=python3 ./run_all.sh
 ```
 
-The messy exports and finished reports are already in `input/` and `output/`. To regenerate them from scratch, run `./run_all.sh` (the generator is seeded, so the data stays the same).
+`./run_all.sh` writes the messy exports to `input/` and the finished reports to `output/`. The generator is seeded, so the data matches the video. The pre-built `.xlsx` workbooks are not stored in the repo; running the script rebuilds them in a third of a second.
 
 Your own export: copy it into `input/` and edit the `COLS` and `REGION` dictionaries at the top of `monthly_report.py`.
