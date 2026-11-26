@@ -11,8 +11,8 @@ Each day's folder has the code, synthetic data and tests from that video. Open t
 | 1 | [day01-excel-to-python](./day01-excel-to-python) | [Automate Excel with Python: Your Monthly Report in One Command (Beginner)](https://youtu.be/L3rOE91lP8o) |
 | 2 | [day02-ai-vs-ml-vs-ds](./day02-ai-vs-ml-vs-ds) | AI vs Machine Learning vs Data Science: Explained with One Real Example |
 | 3 | [day03-vlookup-vs-pandas-merge](./day03-vlookup-vs-pandas-merge) | VLOOKUP vs pandas merge in 60 Seconds #Shorts |
-| 4 | [day04-clean-messy-excel-pandas](./day04-clean-messy-excel-pandas) | Clean Messy Excel Data with pandas: Dates, Duplicates and Missing Values |
-| 5 | [day05-duckdb-1gb-csv](./day05-duckdb-1gb-csv) | Query a 1 GB CSV in Seconds with SQL on Your Laptop (DuckDB, Free) |
+| 4 | [day04-clean-messy-excel-pandas](./day04-clean-messy-excel-pandas) | [Clean Messy Excel Data with pandas: Dates, Duplicates and Missing Values](https://youtu.be/H9QQYlmZub4) |
+| 5 | [day05-duckdb-1gb-csv](./day05-duckdb-1gb-csv) | [Query a 1 GB CSV in Seconds with SQL on Your Laptop (DuckDB, Free)](https://youtu.be/SZReRG92DvQ) |
 
 ## Notes
 
