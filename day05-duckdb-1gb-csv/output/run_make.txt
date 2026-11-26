@@ -1,0 +1,1 @@
+wrote 16,500,000 rows, 1,041,786,923 bytes (1.04 GB) to data/nilgiri_sales.csv in 46 s of work

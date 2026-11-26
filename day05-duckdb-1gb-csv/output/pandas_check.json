@@ -1,0 +1,38 @@
+{
+ "seconds": 4.84,
+ "rows": 16500000,
+ "city": {
+  "Pune": {
+   "net_revenue_crore": 191.58,
+   "orders": 2062484
+  },
+  "Hyderabad": {
+   "net_revenue_crore": 191.44,
+   "orders": 2064344
+  },
+  "Delhi": {
+   "net_revenue_crore": 191.06,
+   "orders": 2061411
+  },
+  "Bengaluru": {
+   "net_revenue_crore": 191.04,
+   "orders": 2063357
+  },
+  "Mumbai": {
+   "net_revenue_crore": 190.96,
+   "orders": 2063346
+  },
+  "Chennai": {
+   "net_revenue_crore": 190.82,
+   "orders": 2061589
+  },
+  "Kolkata": {
+   "net_revenue_crore": 190.59,
+   "orders": 2061243
+  },
+  "Kochi": {
+   "net_revenue_crore": 190.47,
+   "orders": 2062226
+  }
+ }
+}
