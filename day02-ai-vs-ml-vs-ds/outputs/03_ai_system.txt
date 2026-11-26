@@ -1,0 +1,21 @@
+live orders 1-14 Nov 2026: 2,607 (FIRST100 coupon on 386); planted abuse orders: 103
+both bots decided every order one by one in 46.0 s (18 ms per order)
+
+A) rule-based AI (hand-written rule, no learning)
+   held 81: abuse caught 73 of 103, genuine customers held 8, abuse missed 30
+   coupon money protected: Rs 7,300   genuine new customers made to wait: 8
+
+B) ML-powered AI (Isolation Forest decides)
+   held 98: abuse caught 97 of 103, genuine customers held 1, abuse missed 6
+   coupon money protected: Rs 9,700   genuine new customers made to wait: 1
+
+first FIRST100 orders as they arrived:
+order_id       date  hour    city   coupon  order_value rule_bot  ml_bot  is_abuse
+MM115063 2026-11-01     0    Pune FIRST100       317.34     HOLD    HOLD      True
+MM115064 2026-11-01     3    Pune FIRST100       323.05     HOLD    HOLD      True
+MM115065 2026-11-01     7   Kochi FIRST100       493.80  APPROVE APPROVE     False
+MM115071 2026-11-01     8   Kochi FIRST100      1271.59  APPROVE APPROVE     False
+MM115082 2026-11-01     9   Kochi FIRST100       722.84  APPROVE APPROVE     False
+MM115098 2026-11-01    11    Pune FIRST100       436.63  APPROVE APPROVE     False
+MM115099 2026-11-01    11 Lucknow FIRST100       843.78  APPROVE APPROVE     False
+MM115139 2026-11-01    14 Lucknow FIRST100       660.05  APPROVE APPROVE     False

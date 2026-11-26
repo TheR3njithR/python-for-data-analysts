@@ -1,0 +1,46 @@
+1. Month by month
+       orders      sales    profit  margin_%
+month                                       
+Aug      4827  3053987.0  454852.0      15.0
+Sep      4925  3035919.0  457379.0      15.0
+Oct      5310  3316442.0  466935.0      14.0
+
+   Oct vs Sep: sales +9.2%, profit +2.1% (Rs +9,556)
+
+2. Profit by city (Sep -> Oct)
+month         Sep       Oct   change
+city                                
+Kochi    100713.0   75552.0 -25161.0
+Jaipur   116519.0  116916.0    397.0
+Lucknow  101691.0  114191.0  12500.0
+Pune     138456.0  160276.0  21820.0
+
+3. Average delivery cost per order (Rs)
+month     Sep   Oct
+city               
+Jaipur   37.9  37.9
+Kochi    44.9  71.9
+Lucknow  36.0  35.9
+Pune     39.8  40.0
+
+4. FIRST100 welcome coupon (Rs 100 off a first order)
+       uses  coupon_cost
+month                   
+Aug     650      65000.0
+Sep     634      63400.0
+Oct     798      79800.0
+
+5. FIRST100 uses in Sep+Oct by city and time
+night    day  night_10pm_4am
+city                        
+Jaipur   273              11
+Kochi    265               3
+Lucknow  255               7
+Pune     448             170
+
+6. Delivery addresses used by 5 or more different 'new' accounts with FIRST100: 6 addresses, 191 accounts, 191 orders, all in Pune
+   first seen 2026-09-15; by month: Sep 55, Oct 136
+   these orders: average Rs 318, 70% placed 10pm-4am, average profit per order Rs -57 (all other orders: Rs 93)
+   Extra Kochi delivery cost in Oct: about Rs 29,983; October coupon cost on the shared addresses: Rs 13,600
+
+Conclusion (data science): sales grew but profit stood still for two reasons we can SEE in the data - a courier cost jump in Kochi and a burst of late-night welcome-coupon orders in Pune from a handful of addresses. Analysis explains the past; it does not watch new orders.

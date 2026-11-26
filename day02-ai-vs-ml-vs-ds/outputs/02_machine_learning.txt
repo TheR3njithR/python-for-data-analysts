@@ -1,0 +1,12 @@
+trained on 9,752 orders (Aug-Sep), no labels; features: order_value, discount_pct, account_age_days, night_order, items, address_orders_30d
+threshold = top 1% of training scores (0.651)
+October: 5,310 orders scored, 222 flagged as unusual
+graded with the answer key: 152 of 169 planted abuse orders caught (recall 90%), 70 genuine orders flagged (precision 68%), 17 missed
+
+five most unusual October orders:
+order_id       date  hour city  order_value   coupon  account_age_days  address_orders_30d  anomaly_score  is_abuse
+MM113863 2026-10-25     2 Pune       299.69 FIRST100                 0                  27          0.744      True
+MM112807 2026-10-19     3 Pune       300.54 FIRST100                 0                  24          0.744      True
+MM114191 2026-10-27     3 Pune       304.93 FIRST100                 0                  17          0.744      True
+MM114861 2026-10-31     0 Pune       303.63 FIRST100                 0                  29          0.744      True
+MM113175 2026-10-20    22 Pune       307.38 FIRST100                 0                  18          0.743      True
