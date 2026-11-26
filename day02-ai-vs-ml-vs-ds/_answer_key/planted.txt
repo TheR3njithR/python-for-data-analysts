@@ -1,0 +1,2 @@
+Planted problem 1: coupon-abuse ring from 2026-09-15, Pune, new account every order, FIRST100, Rs 299-335, mostly 22:00-03:59 (30% at 17:00-21:59), 6 shared drop addresses (25% of orders to a fresh address).
+Planted problem 2: Kochi courier change 2026-10-01, delivery cost Rs 45 -> Rs 72 per order (+/- 5).
