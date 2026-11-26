@@ -1,0 +1,10 @@
+loaded 2,400 rows x 10 columns from Kaveri_Orders_Oct2026.xlsx
+date formats found: real Excel date 1,321, text DD/MM/YYYY 718, serial number as text 361
+dates parsed: 2,400 of 2,400; range 2026-10-01 to 2026-10-31
+city: 90 truly empty cells plus 60 fake blanks ('NA', 'n/a', '-' or just spaces), now all real missing values
+duplicates: 150 exact copies in the raw file; 200 once case and spaces are fixed
+missing after de-duplication (%): city 6.4, amount 0.3, discount_pct 4.1, landline 99.0
+dropped columns >= 95% empty: landline
+discount blanks set to 0 (business rule): 90; city blanks set to 'Unknown': 140; rows with no amount flagged: 7
+clean rows: 2,200; net sales on rows with an amount: Rs 29,049,659.05
+wrote /workspace/tds/growth/day04-clean-messy-excel-pandas/demo/output/Kaveri_Orders_Oct2026_CLEAN.xlsx

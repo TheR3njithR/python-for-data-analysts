@@ -1,0 +1,5 @@
+raw dtype of order_date: object
+trap 1, one-line pd.to_datetime: 2145 dates became NaT (unreadable)
+         of the 255 it did read, 232 landed outside October (day and month swapped)
+trap 2, plain drop_duplicates(): removes 150 rows, misses the copies with different case and spaces
+trap 3, plain dropna(): keeps 22 of 2,400 rows, because 'landline' is almost always empty

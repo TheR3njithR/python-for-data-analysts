@@ -1,0 +1,3 @@
+rows: 2200 real + 200 duplicates (150 exact, 50 case/space variants) = 2400
+date formats: real dates 1203, DD/MM/YYYY text 662, serial-as-text 335
+city blanks or fake blanks: 140; discount blanks: 90 (rule: 0); amount blanks: 7 (flag); landline filled: 22 of 2200
