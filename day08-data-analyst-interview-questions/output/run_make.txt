@@ -1,0 +1,1 @@
+customers 800 (12 duplicate emails planted), products 20, orders 6,000 (2026-01-01 to 2026-06-30), 9 orders with unknown customer ids; orders_export.csv 6,040 rows

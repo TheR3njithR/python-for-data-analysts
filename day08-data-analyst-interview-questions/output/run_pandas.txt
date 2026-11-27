@@ -1,0 +1,57 @@
+{
+ "q6_missing": {
+  "qty": 92,
+  "city": 129
+ },
+ "q7_rows_before": 6040,
+ "q7_rows_after": 6000,
+ "q7_status_changed": 15,
+ "q8_top2": [
+  [
+   "Electronics",
+   "Smartwatch",
+   2027493
+  ],
+  [
+   "Electronics",
+   "Bluetooth Speaker",
+   1276989
+  ],
+  [
+   "Grocery",
+   "Basmati Rice 5kg",
+   351758
+  ],
+  [
+   "Grocery",
+   "Ghee 1L",
+   349270
+  ],
+  [
+   "Home",
+   "Mixer Grinder",
+   1652799
+  ],
+  [
+   "Home",
+   "Pressure Cooker",
+   1065339
+  ],
+  [
+   "Personal Care",
+   "Trimmer",
+   794470
+  ],
+  [
+   "Personal Care",
+   "Sunscreen",
+   231235
+  ]
+ ],
+ "q9_orphans": 9,
+ "q10_best_7day_avg": [
+  "2026-05-21",
+  85788
+ ],
+ "q10_days": 181
+}
