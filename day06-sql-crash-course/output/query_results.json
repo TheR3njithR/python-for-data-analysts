@@ -1,0 +1,319 @@
+{
+ "q0_look": {
+  "cols": [
+   "order_id",
+   "order_date",
+   "customer_id",
+   "product_id",
+   "qty",
+   "discount_pct",
+   "status"
+  ],
+  "rows": [
+   [
+    1,
+    "2026-09-21",
+    11,
+    26,
+    1,
+    0.0,
+    "Delivered"
+   ],
+   [
+    2,
+    "2026-10-22",
+    589,
+    21,
+    4,
+    10.0,
+    "Delivered"
+   ],
+   [
+    3,
+    "2026-05-12",
+    630,
+    59,
+    3,
+    5.0,
+    "Cancelled"
+   ],
+   [
+    4,
+    "2026-10-20",
+    308,
+    25,
+    3,
+    5.0,
+    "Delivered"
+   ],
+   [
+    5,
+    "2026-03-30",
+    893,
+    57,
+    2,
+    5.0,
+    "Delivered"
+   ]
+  ],
+  "ms": 0.2
+ },
+ "q1_where": {
+  "cols": [
+   "order_id",
+   "order_date",
+   "qty",
+   "status"
+  ],
+  "rows": [
+   [
+    2952,
+    "2026-10-01",
+    4,
+    "Delivered"
+   ],
+   [
+    5584,
+    "2026-10-01",
+    3,
+    "Delivered"
+   ],
+   [
+    5948,
+    "2026-10-01",
+    4,
+    "Delivered"
+   ],
+   [
+    7932,
+    "2026-10-01",
+    3,
+    "Delivered"
+   ],
+   [
+    8227,
+    "2026-10-01",
+    3,
+    "Delivered"
+   ]
+  ],
+  "ms": 6.8
+ },
+ "q1_where_count": {
+  "cols": [
+   "orders"
+  ],
+  "rows": [
+   [
+    385
+   ]
+  ],
+  "ms": 4.3
+ },
+ "q2_order_by": {
+  "cols": [
+   "product_name",
+   "category",
+   "unit_price"
+  ],
+  "rows": [
+   [
+    "Smart TV 43in",
+    "Electronics",
+    26990.0
+   ],
+   [
+    "Air Fryer",
+    "Electronics",
+    5999.0
+   ],
+   [
+    "Mixer Grinder",
+    "Electronics",
+    3499.0
+   ],
+   [
+    "Mop Set",
+    "Home",
+    3423.0
+   ],
+   [
+    "Smartwatch",
+    "Electronics",
+    2799.0
+   ]
+  ],
+  "ms": 0.1
+ },
+ "q3_group_by": {
+  "cols": [
+   "category",
+   "orders",
+   "revenue"
+  ],
+  "rows": [
+   [
+    "Electronics",
+    1261,
+    13789857.0
+   ],
+   [
+    "Home",
+    1293,
+    4868669.0
+   ],
+   [
+    "Personal Care",
+    1302,
+    1374752.0
+   ],
+   [
+    "Grocery",
+    1238,
+    786201.0
+   ],
+   [
+    "Beverages",
+    1237,
+    636003.0
+   ],
+   [
+    "Snacks",
+    1298,
+    373225.0
+   ]
+  ],
+  "ms": 9.1
+ },
+ "q4_having": {
+  "cols": [
+   "city",
+   "orders",
+   "not_delivered_pct"
+  ],
+  "rows": [
+   [
+    "Chennai",
+    1125,
+    16.3
+   ],
+   [
+    "Delhi",
+    1117,
+    16.2
+   ],
+   [
+    "Bengaluru",
+    1026,
+    15.9
+   ],
+   [
+    "Kochi",
+    1283,
+    15.7
+   ],
+   [
+    "Mumbai",
+    1037,
+    15.6
+   ]
+  ],
+  "ms": 4.7
+ },
+ "q4_all_cities": {
+  "cols": [
+   "city",
+   "orders",
+   "not_delivered_pct"
+  ],
+  "rows": [
+   [
+    "Chennai",
+    1125,
+    16.3
+   ],
+   [
+    "Delhi",
+    1117,
+    16.2
+   ],
+   [
+    "Bengaluru",
+    1026,
+    15.9
+   ],
+   [
+    "Kochi",
+    1283,
+    15.7
+   ],
+   [
+    "Mumbai",
+    1037,
+    15.6
+   ],
+   [
+    "Pune",
+    1182,
+    14.6
+   ],
+   [
+    "Jaipur",
+    1201,
+    13.9
+   ],
+   [
+    "Hyderabad",
+    1029,
+    13.7
+   ]
+  ],
+  "ms": 11.6
+ },
+ "q5_join": {
+  "cols": [
+   "segment",
+   "city",
+   "revenue"
+  ],
+  "rows": [
+   [
+    "Retail",
+    "Pune",
+    2475835.0
+   ],
+   [
+    "Retail",
+    "Kochi",
+    2096577.0
+   ],
+   [
+    "Retail",
+    "Delhi",
+    2076578.0
+   ],
+   [
+    "Retail",
+    "Chennai",
+    2023639.0
+   ],
+   [
+    "Retail",
+    "Jaipur",
+    1955136.0
+   ]
+  ],
+  "ms": 13.5
+ },
+ "q6_left_join": {
+  "cols": [
+   "never_ordered"
+  ],
+  "rows": [
+   [
+    100
+   ]
+  ],
+  "ms": 6.0
+ }
+}
