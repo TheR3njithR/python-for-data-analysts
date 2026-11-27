@@ -1,6 +1,6 @@
 # Day 8 — Data Analyst Interview Questions 2026: 10 SQL and Python Answers, Solved Live
 
-Companion files for **Data Analyst Interview Questions 2026: 10 SQL and Python Answers, Solved Live** on **TheDataScientist | Renjith R** (Python for Data Analysts, Day 8).
+Companion files for **[Data Analyst Interview Questions 2026: 10 SQL and Python Answers, Solved Live](https://youtu.be/ndBcqnpU7RM)** on **TheDataScientist | Renjith R** (Python for Data Analysts, Day 8).
 
 `make_db.py` builds a seeded SQLite database and a messy CSV export for a made-up shop, Kaveri Mart: 800 customers (12 duplicate emails planted), 20 products and 6,000 orders (January to June 2026), plus 9 orders with unknown customer ids. The export has 6,040 rows, with missing city and quantity values and 40 re-sent rows. `queries.sql` has the five SQL interview questions. `pandas_answers.py` has the five pandas questions. Ten tests in `tests/test_answers.py` check every answer a second way.
 
