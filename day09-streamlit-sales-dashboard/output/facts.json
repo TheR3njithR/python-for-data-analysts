@@ -1,0 +1,97 @@
+{
+ "rows": 9000,
+ "columns": [
+  "order_id",
+  "order_date",
+  "city",
+  "channel",
+  "category",
+  "product",
+  "qty",
+  "unit_price",
+  "revenue"
+ ],
+ "first": "2026-01-01",
+ "last": "2026-09-30",
+ "cities": [
+  "Chennai",
+  "Delhi",
+  "Hyderabad",
+  "Kochi",
+  "Mumbai",
+  "Pune"
+ ],
+ "categories": [
+  "Electronics",
+  "Grocery",
+  "Home",
+  "Personal Care"
+ ],
+ "products": 16,
+ "all": {
+  "revenue": 22521223,
+  "revenue_lakh": "225.21",
+  "orders": 9000,
+  "aov": 2502
+ },
+ "pune": {
+  "revenue": 3351284,
+  "revenue_lakh": "33.51",
+  "orders": 1317,
+  "aov": 2545
+ },
+ "pune_online": {
+  "revenue": 1930596,
+  "revenue_lakh": "19.31",
+  "orders": 761,
+  "aov": 2537
+ },
+ "month": {
+  "2026-01": 2792416,
+  "2026-02": 2969053,
+  "2026-03": 2894166,
+  "2026-04": 2394725,
+  "2026-05": 2206517,
+  "2026-06": 1784198,
+  "2026-07": 1817732,
+  "2026-08": 3065524,
+  "2026-09": 2596892
+ },
+ "category": {
+  "Electronics": 10292520,
+  "Home": 6883713,
+  "Grocery": 3158630,
+  "Personal Care": 2186360
+ },
+ "top5": {
+  "Smartwatch": 4402899,
+  "Mixer Grinder": 3721272,
+  "Bluetooth Speaker": 2556477,
+  "Earbuds": 1915935,
+  "Pressure Cooker": 1785060
+ },
+ "pune_online_month": {
+  "2026-01": 219244,
+  "2026-02": 230558,
+  "2026-03": 275591,
+  "2026-04": 188548,
+  "2026-05": 253454,
+  "2026-06": 144772,
+  "2026-07": 156115,
+  "2026-08": 227501,
+  "2026-09": 234813
+ },
+ "pune_online_top5": {
+  "Smartwatch": 431892,
+  "Mixer Grinder": 257322,
+  "Bluetooth Speaker": 214914,
+  "Earbuds": 170905,
+  "Pressure Cooker": 165213
+ },
+ "grocery_all": {
+  "revenue": 3158630,
+  "revenue_lakh": "31.59",
+  "orders": 3061,
+  "aov": 1032
+ }
+}
