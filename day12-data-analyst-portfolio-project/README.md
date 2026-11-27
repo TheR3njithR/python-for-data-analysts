@@ -1,6 +1,6 @@
 # Day 12 — Data Analyst Portfolio Project: SQL + Python End to End (Indian Retail Data, GitHub Ready)
 
-Companion files for **Data Analyst Portfolio Project: SQL + Python End to End (Indian Retail Data, GitHub Ready)** on **TheDataScientist | Renjith R** (Python for Data Analysts, Day 12). The scheduled YouTube URL will be added here after upload.
+Companion files for **[Data Analyst Portfolio Project: SQL + Python End to End (Indian Retail Data, GitHub Ready)](https://youtu.be/zAc1mGFbamE)** on **TheDataScientist | Renjith R** (Python for Data Analysts, Day 12).
 
 `src/make_data.py` builds a seeded sales export for a made-up retail chain, Kaveri Mart: 8 stores in 6 cities, 19,448 sales lines (120 exact duplicates and 40 missing prices, like a real export). `src/clean_load.py` drops those rows, computes revenue and loads SQLite. Three SQL files answer one business question each. `src/analysis.py` reruns those queries from Python, saves the answers as CSVs and draws the monthly chart. Four tests in `tests/test_totals.py` check that no duplicates or missing prices remain, that the SQL total matches pandas, and that the city totals add up.
 

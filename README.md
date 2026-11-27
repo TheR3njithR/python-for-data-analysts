@@ -19,7 +19,7 @@ Each day's folder has the code, synthetic data and tests from that video. Open t
 | 9 | [day09-streamlit-sales-dashboard](./day09-streamlit-sales-dashboard) | [Build a Sales Dashboard in Streamlit with Python (Interactive, No Tableau)](https://youtu.be/MIT8H0WpRnI) |
 | 10 | [day10-analyst-vs-scientist-vs-ai-engineer](./day10-analyst-vs-scientist-vs-ai-engineer) | [Data Analyst vs Data Scientist vs AI Engineer (India 2026): Skills, Tools and Which to Pick](https://youtu.be/7rBtZRWN5tU) |
 | 11 | [day11-zerodha-access-token-short](./day11-zerodha-access-token-short) | [Why Your Zerodha API Stops Working Every Morning (Access Token) #Shorts](https://youtu.be/BZvfQH7RjEI) |
-| 12 | [day12-data-analyst-portfolio-project](./day12-data-analyst-portfolio-project) | Data Analyst Portfolio Project: SQL + Python End to End (Indian Retail Data, GitHub Ready) |
+| 12 | [day12-data-analyst-portfolio-project](./day12-data-analyst-portfolio-project) | [Data Analyst Portfolio Project: SQL + Python End to End (Indian Retail Data, GitHub Ready)](https://youtu.be/zAc1mGFbamE) |
 
 ## Notes
 
