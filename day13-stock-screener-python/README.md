@@ -1,6 +1,6 @@
 # Day 13 — Build a Stock Screener in Python with pandas (NSE Bhavcopy Format, Tested)
 
-Companion files for **Build a Stock Screener in Python with pandas (NSE Bhavcopy Format, Tested)** on **TheDataScientist | Renjith R** (Python for Data Analysts, Day 13). The scheduled YouTube URL will be added here after upload.
+Companion files for **[Build a Stock Screener in Python with pandas (NSE Bhavcopy Format, Tested)](https://youtu.be/TsaijHDtLfI)** on **TheDataScientist | Renjith R** (Python for Data Analysts, Day 13).
 
 Educational demo. Not financial advice. All symbols (DEMO...) and prices are synthetic.
 

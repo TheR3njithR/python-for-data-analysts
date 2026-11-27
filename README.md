@@ -20,7 +20,7 @@ Each day's folder has the code, synthetic data and tests from that video. Open t
 | 10 | [day10-analyst-vs-scientist-vs-ai-engineer](./day10-analyst-vs-scientist-vs-ai-engineer) | [Data Analyst vs Data Scientist vs AI Engineer (India 2026): Skills, Tools and Which to Pick](https://youtu.be/7rBtZRWN5tU) |
 | 11 | [day11-zerodha-access-token-short](./day11-zerodha-access-token-short) | [Why Your Zerodha API Stops Working Every Morning (Access Token) #Shorts](https://youtu.be/BZvfQH7RjEI) |
 | 12 | [day12-data-analyst-portfolio-project](./day12-data-analyst-portfolio-project) | [Data Analyst Portfolio Project: SQL + Python End to End (Indian Retail Data, GitHub Ready)](https://youtu.be/zAc1mGFbamE) |
-| 13 | [day13-stock-screener-python](./day13-stock-screener-python) | Build a Stock Screener in Python with pandas (NSE Bhavcopy Format, Tested) |
+| 13 | [day13-stock-screener-python](./day13-stock-screener-python) | [Build a Stock Screener in Python with pandas (NSE Bhavcopy Format, Tested)](https://youtu.be/TsaijHDtLfI) |
 | 14 | [day14-what-is-rag-short](./day14-what-is-rag-short) | [What Is RAG? Explained in 30 Seconds with One Diagram #Shorts](https://youtube.com/shorts/-ilM_2mgIgs) |
 
 ## Notes
