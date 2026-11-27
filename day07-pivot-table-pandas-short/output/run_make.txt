@@ -1,0 +1,1 @@
+3,000 rows, 6 regions, 10 months, 60 SUMIFS formulas
