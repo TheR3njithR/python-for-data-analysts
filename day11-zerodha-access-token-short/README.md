@@ -1,6 +1,6 @@
 # Day 11 — Why Your Zerodha API Stops Working Every Morning (Access Token) #Shorts
 
-Companion files for **Why Your Zerodha API Stops Working Every Morning (Access Token) #Shorts** on **TheDataScientist | Renjith R** (Zerodha API + Google Sheets Algo Trading Series, Day 11 Short).
+Companion files for **[Why Your Zerodha API Stops Working Every Morning (Access Token) #Shorts](https://youtu.be/BZvfQH7RjEI)** on **TheDataScientist | Renjith R** (Zerodha API + Google Sheets Algo Trading Series, Day 11 Short).
 
 `token_check.py` reads a saved login time from `session.json` and flags the access token as expired after the next 6 AM cutoff (Kite Connect docs). The session file is synthetic (`DEMO-NOT-A-REAL-TOKEN`). Three tests in `tests/test_expiry.py` check an evening login, a pre-6 AM login, and a login at exactly 6 AM.
 

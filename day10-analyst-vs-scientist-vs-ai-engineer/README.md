@@ -1,6 +1,6 @@
 # Day 10 — Data Analyst vs Data Scientist vs AI Engineer (India 2026): Skills, Tools and Which to Pick
 
-Companion files for **Data Analyst vs Data Scientist vs AI Engineer (India 2026): Skills, Tools and Which to Pick** on **TheDataScientist | Renjith R** (Python for Data Analysts, Day 10).
+Companion files for **[Data Analyst vs Data Scientist vs AI Engineer (India 2026): Skills, Tools and Which to Pick](https://youtu.be/7rBtZRWN5tU)** on **TheDataScientist | Renjith R** (Python for Data Analysts, Day 10).
 
 `make_data.py` builds a seeded customer table for a made-up mobile company, Sabari Mobile: 6,000 customers, plan, tenure, bill, data use, support calls, late payments and churn (21.1%). The data analyst runs SQL on the SQLite copy. The data scientist trains a logistic regression with scikit-learn (AUC 0.782 on 1,500 test customers). The AI engineer serves the saved model behind a FastAPI `/predict` endpoint. Four tests in `tests/test_api.py` check health, a valid probability, that a risky customer scores higher than a loyal one, and that a bad plan is rejected.
 
