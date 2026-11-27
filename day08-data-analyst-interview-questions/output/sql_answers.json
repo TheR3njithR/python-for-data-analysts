@@ -1,0 +1,159 @@
+{
+ "q1_duplicates": {
+  "cols": [
+   "email",
+   "signups"
+  ],
+  "rows": [
+   [
+    "ananya.pillai517@example.com",
+    2
+   ],
+   [
+    "ananya.sharma144@example.com",
+    2
+   ],
+   [
+    "diya.patel116@example.com",
+    2
+   ],
+   [
+    "farhan.pillai740@example.com",
+    2
+   ],
+   [
+    "farhan.rao597@example.com",
+    2
+   ]
+  ]
+ },
+ "q1_duplicates_count": {
+  "cols": [
+   "duplicate_emails"
+  ],
+  "rows": [
+   [
+    12
+   ]
+  ]
+ },
+ "q2_second_highest": {
+  "cols": [
+   "second_highest"
+  ],
+  "rows": [
+   [
+    13196
+   ]
+  ]
+ },
+ "q2_top_values": {
+  "cols": [
+   "order_value"
+  ],
+  "rows": [
+   [
+    15996
+   ],
+   [
+    13196
+   ],
+   [
+    11997
+   ]
+  ]
+ },
+ "q3_top_per_city": {
+  "cols": [
+   "city",
+   "name",
+   "revenue"
+  ],
+  "rows": [
+   [
+    "Pune",
+    "Arjun Kapoor",
+    121869
+   ],
+   [
+    "Chennai",
+    "Isha Patel",
+    105150
+   ],
+   [
+    "Mumbai",
+    "Lakshmi Sharma",
+    100648
+   ],
+   [
+    "Hyderabad",
+    "Farhan Menon",
+    78098
+   ],
+   [
+    "Kochi",
+    "Rahul Patel",
+    77390
+   ],
+   [
+    "Delhi",
+    "Zoya Reddy",
+    70777
+   ],
+   [
+    "Bengaluru",
+    "Aarav Khan",
+    67000
+   ]
+  ]
+ },
+ "q4_mom_growth": {
+  "cols": [
+   "month",
+   "revenue",
+   "growth_pct"
+  ],
+  "rows": [
+   [
+    "2026-01",
+    2283639,
+    null
+   ],
+   [
+    "2026-02",
+    2014208,
+    -11.8
+   ],
+   [
+    "2026-03",
+    2242357,
+    11.3
+   ],
+   [
+    "2026-04",
+    1868446,
+    -16.7
+   ],
+   [
+    "2026-05",
+    2238890,
+    19.8
+   ],
+   [
+    "2026-06",
+    1976264,
+    -11.7
+   ]
+  ]
+ },
+ "q5_jan_not_feb": {
+  "cols": [
+   "jan_not_feb"
+  ],
+  "rows": [
+   [
+    140
+   ]
+  ]
+ }
+}
