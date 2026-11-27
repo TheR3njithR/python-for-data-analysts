@@ -13,12 +13,13 @@ Each day's folder has the code, synthetic data and tests from that video. Open t
 | 3 | [day03-vlookup-vs-pandas-merge](./day03-vlookup-vs-pandas-merge) | VLOOKUP vs pandas merge in 60 Seconds #Shorts |
 | 4 | [day04-clean-messy-excel-pandas](./day04-clean-messy-excel-pandas) | [Clean Messy Excel Data with pandas: Dates, Duplicates and Missing Values](https://youtu.be/H9QQYlmZub4) |
 | 5 | [day05-duckdb-1gb-csv](./day05-duckdb-1gb-csv) | [Query a 1 GB CSV in Seconds with SQL on Your Laptop (DuckDB, Free)](https://youtu.be/SZReRG92DvQ) |
-| 6 | [day06-sql-crash-course](./day06-sql-crash-course) | SQL for Data Analysis: Beginner Crash Course on an Indian Sales Dataset (Part 1) |
-| 7 | [day07-pivot-table-pandas-short](./day07-pivot-table-pandas-short) | Replace a Pivot Table with 1 Line of pandas #Shorts |
+| 6 | [day06-sql-crash-course](./day06-sql-crash-course) | [SQL for Data Analysis: Beginner Crash Course on an Indian Sales Dataset (Part 1)](https://youtu.be/_zudLfEX-W4) |
+| 7 | [day07-pivot-table-pandas-short](./day07-pivot-table-pandas-short) | [Replace a Pivot Table with 1 Line of pandas #Shorts](https://youtube.com/shorts/Ox2bd6zg3lQ) |
+| 8 | [day08-data-analyst-interview-questions](./day08-data-analyst-interview-questions) | Data Analyst Interview Questions 2026: 10 SQL and Python Answers, Solved Live |
 
 ## Notes
 
 - All data in this repository is synthetic. No real people, accounts or credentials.
 - Educational code. Not financial advice.
-- Large binary outputs (Excel workbooks, the Day 5 1 GB CSV and Parquet file, and the Day 6 SQLite database) are not stored in the repo. Run `./run_all.sh` in the day's folder to rebuild them.
+- Large binary outputs (Excel workbooks, the Day 5 1 GB CSV and Parquet file, the Day 6 SQLite database, and the Day 8 SQLite database and messy export) are not stored in the repo. Run `./run_all.sh` in the day's folder to rebuild them.
 - License: MIT. See [LICENSE](./LICENSE).
