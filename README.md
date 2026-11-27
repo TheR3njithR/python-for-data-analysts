@@ -17,10 +17,12 @@ Each day's folder has the code, synthetic data and tests from that video. Open t
 | 7 | [day07-pivot-table-pandas-short](./day07-pivot-table-pandas-short) | [Replace a Pivot Table with 1 Line of pandas #Shorts](https://youtube.com/shorts/Ox2bd6zg3lQ) |
 | 8 | [day08-data-analyst-interview-questions](./day08-data-analyst-interview-questions) | [Data Analyst Interview Questions 2026: 10 SQL and Python Answers, Solved Live](https://youtu.be/ndBcqnpU7RM) |
 | 9 | [day09-streamlit-sales-dashboard](./day09-streamlit-sales-dashboard) | [Build a Sales Dashboard in Streamlit with Python (Interactive, No Tableau)](https://youtu.be/MIT8H0WpRnI) |
+| 10 | [day10-analyst-vs-scientist-vs-ai-engineer](./day10-analyst-vs-scientist-vs-ai-engineer) | Data Analyst vs Data Scientist vs AI Engineer (India 2026): Skills, Tools and Which to Pick |
+| 11 | [day11-zerodha-access-token-short](./day11-zerodha-access-token-short) | Why Your Zerodha API Stops Working Every Morning (Access Token) #Shorts |
 
 ## Notes
 
 - All data in this repository is synthetic. No real people, accounts or credentials.
 - Educational code. Not financial advice.
-- Large binary outputs (Excel workbooks, the Day 5 1 GB CSV and Parquet file, the Day 6 SQLite database, the Day 8 SQLite database and messy export, and the Day 9 sales CSV) are not stored in the repo. Run `./run_all.sh` in the day's folder to rebuild them.
+- Large binary outputs (Excel workbooks, the Day 5 1 GB CSV and Parquet file, the Day 6 SQLite database, the Day 8 SQLite database and messy export, the Day 9 sales CSV, and the Day 10 customers CSV, SQLite database and model file) are not stored in the repo. Run `./run_all.sh` in the day's folder to rebuild them.
 - License: MIT. See [LICENSE](./LICENSE).
