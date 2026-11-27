@@ -20,11 +20,12 @@ Each day's folder has the code, synthetic data and tests from that video. Open t
 | 10 | [day10-analyst-vs-scientist-vs-ai-engineer](./day10-analyst-vs-scientist-vs-ai-engineer) | [Data Analyst vs Data Scientist vs AI Engineer (India 2026): Skills, Tools and Which to Pick](https://youtu.be/7rBtZRWN5tU) |
 | 11 | [day11-zerodha-access-token-short](./day11-zerodha-access-token-short) | [Why Your Zerodha API Stops Working Every Morning (Access Token) #Shorts](https://youtu.be/BZvfQH7RjEI) |
 | 12 | [day12-data-analyst-portfolio-project](./day12-data-analyst-portfolio-project) | [Data Analyst Portfolio Project: SQL + Python End to End (Indian Retail Data, GitHub Ready)](https://youtu.be/zAc1mGFbamE) |
+| 13 | [day13-stock-screener-python](./day13-stock-screener-python) | Build a Stock Screener in Python with pandas (NSE Bhavcopy Format, Tested) |
 | 14 | [day14-what-is-rag-short](./day14-what-is-rag-short) | [What Is RAG? Explained in 30 Seconds with One Diagram #Shorts](https://youtube.com/shorts/-ilM_2mgIgs) |
 
 ## Notes
 
 - All data in this repository is synthetic. No real people, accounts or credentials.
 - Educational code. Not financial advice.
-- Large binary outputs (Excel workbooks, the Day 5 1 GB CSV and Parquet file, the Day 6 SQLite database, the Day 8 SQLite database and messy export, the Day 9 sales CSV, the Day 10 customers CSV, SQLite database and model file, and the Day 12 orders CSV, stores CSV, SQLite database and output chart) are not stored in the repo. Run `./run_all.sh` in the day's folder to rebuild them.
+- Large binary outputs (Excel workbooks, the Day 5 1 GB CSV and Parquet file, the Day 6 SQLite database, the Day 8 SQLite database and messy export, the Day 9 sales CSV, the Day 10 customers CSV, SQLite database and model file, the Day 12 orders CSV, stores CSV, SQLite database and output chart, and the Day 13 synthetic bhavcopy files, shortlist CSV and output chart) are not stored in the repo. Run `./run_all.sh` in the day's folder to rebuild them.
 - License: MIT. See [LICENSE](./LICENSE).
