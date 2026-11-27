@@ -1,6 +1,6 @@
 # Day 9 — Build a Sales Dashboard in Streamlit with Python (Interactive, No Tableau)
 
-Companion files for **Build a Sales Dashboard in Streamlit with Python (Interactive, No Tableau)** on **TheDataScientist | Renjith R** (Python for Data Analysts, Day 9).
+Companion files for **[Build a Sales Dashboard in Streamlit with Python (Interactive, No Tableau)](https://youtu.be/MIT8H0WpRnI)** on **TheDataScientist | Renjith R** (Python for Data Analysts, Day 9).
 
 `make_data.py` builds a seeded sales file for a made-up shop, Godavari Traders: 9,000 orders, January to September 2026, 6 cities, 4 categories and 16 products. `app.py` is the 51-line Streamlit app from the video: sidebar filters, three KPI cards, a monthly line chart, a category bar chart, a top-5 products table and a CSV download. Five tests in `tests/test_app.py` run the real app headless with Streamlit's AppTest and check every card against plain pandas.
 
