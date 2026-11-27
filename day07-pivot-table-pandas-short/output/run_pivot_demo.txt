@@ -1,0 +1,6 @@
+rows 3,000, regions 6, months 10
+pandas: df.pivot_table(index='region', columns='month', values='amount', aggfunc='sum', margins=True)
+  pivot shape with totals: 7 x 11; took 23.5 ms
+Excel: 60 SUMIFS formulas, recalculated by LibreOffice 25.2.3.2
+  cells where SUMIFS == pandas: 60 of 60
+  grand total: 10,891,526; largest region total: West 1,929,559
