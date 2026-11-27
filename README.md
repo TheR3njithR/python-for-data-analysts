@@ -16,10 +16,11 @@ Each day's folder has the code, synthetic data and tests from that video. Open t
 | 6 | [day06-sql-crash-course](./day06-sql-crash-course) | [SQL for Data Analysis: Beginner Crash Course on an Indian Sales Dataset (Part 1)](https://youtu.be/_zudLfEX-W4) |
 | 7 | [day07-pivot-table-pandas-short](./day07-pivot-table-pandas-short) | [Replace a Pivot Table with 1 Line of pandas #Shorts](https://youtube.com/shorts/Ox2bd6zg3lQ) |
 | 8 | [day08-data-analyst-interview-questions](./day08-data-analyst-interview-questions) | [Data Analyst Interview Questions 2026: 10 SQL and Python Answers, Solved Live](https://youtu.be/ndBcqnpU7RM) |
+| 9 | [day09-streamlit-sales-dashboard](./day09-streamlit-sales-dashboard) | Build a Sales Dashboard in Streamlit with Python (Interactive, No Tableau) |
 
 ## Notes
 
 - All data in this repository is synthetic. No real people, accounts or credentials.
 - Educational code. Not financial advice.
-- Large binary outputs (Excel workbooks, the Day 5 1 GB CSV and Parquet file, the Day 6 SQLite database, and the Day 8 SQLite database and messy export) are not stored in the repo. Run `./run_all.sh` in the day's folder to rebuild them.
+- Large binary outputs (Excel workbooks, the Day 5 1 GB CSV and Parquet file, the Day 6 SQLite database, the Day 8 SQLite database and messy export, and the Day 9 sales CSV) are not stored in the repo. Run `./run_all.sh` in the day's folder to rebuild them.
 - License: MIT. See [LICENSE](./LICENSE).
