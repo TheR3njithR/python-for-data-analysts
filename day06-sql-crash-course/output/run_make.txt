@@ -1,0 +1,4 @@
+customers 1200 rows
+products 60 rows
+orders 9000 rows
+wrote data/ganga_retail.db 401408 bytes
