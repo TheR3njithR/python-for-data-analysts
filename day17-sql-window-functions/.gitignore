@@ -1,0 +1,7 @@
+# Generated and local (rebuild with ./run_all.sh)
+data/kaveri.db
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.env
