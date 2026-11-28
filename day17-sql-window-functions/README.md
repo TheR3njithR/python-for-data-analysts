@@ -1,6 +1,6 @@
 # SQL window functions for data analysts (SQLite)
 
-Companion files for **SQL Window Functions for Data Analysts: RANK, LAG and Running Totals Explained** on **TheDataScientist | Renjith R** (Python for Data Analysts, Day 17). The YouTube URL will be added to this README after the video is scheduled.
+Companion files for **[SQL Window Functions for Data Analysts: RANK, LAG and Running Totals Explained](https://youtu.be/g01NXJ1yiyg)** on **TheDataScientist | Renjith R** (Python for Data Analysts, Day 17).
 
 Rank stores, compare each month with the one before, and keep a running total — in one line of SQL each. Every result is checked against pandas.
 

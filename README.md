@@ -23,7 +23,7 @@ Each day's folder has the code, synthetic data and tests from that video. Open t
 | 13 | [day13-stock-screener-python](./day13-stock-screener-python) | [Build a Stock Screener in Python with pandas (NSE Bhavcopy Format, Tested)](https://youtu.be/TsaijHDtLfI) |
 | 14 | [day14-what-is-rag-short](./day14-what-is-rag-short) | [What Is RAG? Explained in 30 Seconds with One Diagram #Shorts](https://youtube.com/shorts/-ilM_2mgIgs) |
 | 15 | [day15-daily-sales-report-cron](./day15-daily-sales-report-cron) | Automate a Daily Sales Report in Python and Send It at 8 AM (cron + pandas) |
-| 17 | [day17-sql-window-functions](./day17-sql-window-functions) | SQL Window Functions for Data Analysts: RANK, LAG and Running Totals Explained |
+| 17 | [day17-sql-window-functions](./day17-sql-window-functions) | [SQL Window Functions for Data Analysts: RANK, LAG and Running Totals Explained](https://youtu.be/g01NXJ1yiyg) |
 
 Day 16 (Prompt Engineering for Data Analysis) is parked, so there is no folder for it yet.
 

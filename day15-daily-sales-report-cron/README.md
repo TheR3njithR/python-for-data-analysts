@@ -1,6 +1,6 @@
 # Daily sales report in Python, sent at 8 AM with cron
 
-Companion files for **Automate a Daily Sales Report in Python and Send It at 8 AM (cron + pandas)** on **TheDataScientist | Renjith R** (Python for Data Analysts, Day 15). The YouTube URL will be added to this README after the video is scheduled.
+Companion files for **Automate a Daily Sales Report in Python and Send It at 8 AM (cron + pandas)** on **TheDataScientist | Renjith R** (Python for Data Analysts, Day 15). YouTube URL / ID: TBD — it was not recorded at upload and could not be recovered from the channel RSS or oembed (scheduled videos are not listed there).
 
 One script totals yesterday's sales by store, puts the same day last week next to it, emails the table with a CSV attached, and cron runs it at 8 AM. The mail server comes from the environment, never the code. Cron is started with almost no settings, so the crontab uses the full path to the project's Python and the code builds file paths from its own folder.
 
