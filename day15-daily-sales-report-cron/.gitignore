@@ -1,0 +1,10 @@
+# Generated and local (rebuild with ./run_all.sh)
+data/sales.csv
+logs/
+outbox/
+reports/
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.env

@@ -1,0 +1,2 @@
+# m h dom mon dow  command      (8:00 AM in the machine's time zone, every day)
+0 8 * * * cd $HOME/daily-sales-report && venv/bin/python src/daily_report.py >> logs/cron.log 2>&1
